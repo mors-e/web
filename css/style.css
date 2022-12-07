@@ -6,8 +6,11 @@
   --text2: #939393;
   --font: #181818;
   font-size: 62.5%;
-  padding-left: 1.5rem;
   font-weight: 600;
+}
+.main{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 li {
@@ -26,8 +29,9 @@ h1 {
 }
 
 .header {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+    margin-top: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .BestSeller button {
@@ -39,7 +43,7 @@ h1 {
 
 .section1 {
   padding-bottom: 3.6rem;
-  padding-right: 1.8rem;
+  padding-top: 1.5rem;
 }
 
 .section1 p {
@@ -81,6 +85,8 @@ h1 {
 }
 
 .BestSeller h3 {
+  margin-top: 18px;
+  margin-bottom: 2px;
   font-size: 1.2rem;
   line-height: 100%;
   color: var(--text2);
@@ -94,7 +100,7 @@ h1 {
 }
 
 .BestSeller img {
-  padding-top: 2.8rem;
+ margin-top: 28px;
 }
 
 .BestSeller a {
@@ -169,11 +175,11 @@ h1 {
 }
 
 .section3 ol {
-  padding-top: 2.2rem;
+  margin-top: 22px;
 }
 
 .section3 li {
-  padding-bottom: 2.2rem;
+  margin-bottom: 22px;
 }
 
 #visit_shop {
@@ -182,7 +188,6 @@ h1 {
   background: var(--text1);
   border-radius: 82px;
   color: white;
-
   font-size: 1.5rem;
   line-height: 100%;
   margin-top: 60px;
@@ -199,7 +204,11 @@ h1 {
 
 .section4 ul {
   padding-top: 2.2rem;
-  padding-bottom: 1.3rem;
+  margin: 0;
+}
+
+.section4 li{
+    margin-top: 13px;
 }
 
 .section4 a {
@@ -208,7 +217,6 @@ h1 {
   background: var(--text1);
   border-radius: 82px;
   color: white;
-
   font-size: 1.5rem;
   line-height: 100%;
   margin-top: 60px;
@@ -224,6 +232,13 @@ h1 {
 
 .NEWS {
   padding-bottom: 8.4rem;
+}
+
+.NEWS img{
+    margin-bottom: 16px;
+    max-width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .NEWS h2 {
@@ -247,10 +262,11 @@ h1 {
 }
 
 .NEWS h3 {
+  margin-top: 8px;
   font-size: 2rem;
   line-height: 100%;
   color: black;
-  padding-bottom: 2.1rem;
+  margin-bottom: 22px;
 }
 
 .NEWS a {
@@ -261,14 +277,17 @@ h1 {
   padding: 1.4rem 4rem;
   border: 1px solid var(--text2);
   border-radius: 82px;
-
   font-size: 1.5rem;
   line-height: 100%;
   color: var(--text1);
 }
 
 .about_verseser img {
-  padding-top: 4.3rem;
+  margin-top: 43px;
+  padding-bottom: 6.8rem;
+  max-width: 100%;
+display: block;
+width: 100%;
 }
 
 .about_verseser h2 {
@@ -277,6 +296,7 @@ h1 {
 }
 
 .about_verseser p {
+  margin-top: 6px;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 169.02%;
@@ -286,7 +306,6 @@ h1 {
   background: var(--font);
   border-radius: 82px;
   color: white;
-
   font-size: 1.5rem;
   line-height: 100%;
   display: flex;
@@ -298,7 +317,13 @@ h1 {
 }
 
 .footer1 {
+  padding-top: 3rem;
   background: var(--font);
+  padding-bottom: 2.1rem;
+}
+
+.div_footer{
+    padding-left: 1.5rem;
 }
 
 .footer1 a {
@@ -309,14 +334,19 @@ h1 {
 }
 
 .footer1 p {
+  padding: 1.5rem;
   font-size: 1.5rem;
   line-height: 100%;
   color: white;
+  border-top: 1px solid var(--text1);
+  border-bottom: 1px solid var(--text1);
+  padding-top: 2.3rem;
+  padding-bottom: 2.3rem;
 }
 
 #footer_p {
-  padding-bottom: 2.1rem;
   opacity: 0.3;
+ border: 0;
 }
 
 #footer_a {

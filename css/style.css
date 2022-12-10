@@ -64,6 +64,8 @@ h1 {
   font-size: 1.5rem;
   line-height: 100%;
   margin-bottom: 15px;
+  box-sizing: initial;
+  display: inline-block;
 }
 
 .section1 img {
@@ -111,6 +113,8 @@ h1 {
   padding: 0.8rem 1.4rem;
   border: 1px solid black;
   border-radius: 2px;
+  box-sizing: initial;
+  display: inline-block;
 }
 
 #ul_best {
@@ -323,8 +327,13 @@ h1 {
   padding-bottom: 2.1rem;
 }
 
+.footer1 li{
+  margin-bottom: 16px;
+}
+
 .div_footer {
   padding-left: 1.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .footer1 a {

@@ -36,8 +36,8 @@ h1 {
 }
 
 .section1 {
-  padding-bottom: 3.6rem;
-  padding-top: 1.5rem;
+  margin-bottom: 36px;
+  margin-top: 15px;
 }
 
 .section1 p {
@@ -67,8 +67,8 @@ h1 {
 }
 
 .BestSeller {
-  padding-top: 2.3rem;
-  padding-bottom: 3rem;
+  margin-top: 23px;
+  margin-bottom: 30px;
 }
 
 .BestSeller h2 {
@@ -143,8 +143,8 @@ h1 {
 }
 
 .section3 {
-  padding-top: 4.4rem;
-  padding-bottom: 1.3rem;
+  margin-top: 44px;
+  margin-bottom: 13px;
 }
 
 .section3 h2 {
@@ -204,7 +204,7 @@ h1 {
 }
 
 .section4 {
-  padding-bottom: 5.6rem;
+  margin-bottom: 56px;
 }
 
 .section4 ul {
@@ -236,7 +236,7 @@ h1 {
 }
 
 .NEWS {
-  padding-bottom: 8.4rem;
+  margin-bottom: 84px;
 }
 
 .NEWS img {
@@ -289,7 +289,7 @@ h1 {
 
 .about_verseser img {
   margin-top: 43px;
-  padding-bottom: 6.8rem;
+  margin-bottom: 68px;
   max-width: 100%;
   display: block;
   width: 100%;
@@ -330,12 +330,12 @@ h1 {
 }
 
 .footer1 {
-  padding-top: 3rem;
+  padding-top: 30px;
   background: var(--font);
   padding-bottom: 2.1rem;
 }
 
-x .footer1 li {
+.footer1 li {
   margin-bottom: 16px;
 }
 

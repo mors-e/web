@@ -35,13 +35,6 @@ h1 {
   padding-right: 1.5rem;
 }
 
-.BestSeller button {
-  padding: 0;
-  border-radius: 50%;
-  width: 4px;
-  height: 4px;
-}
-
 .section1 {
   padding-bottom: 3.6rem;
   padding-top: 1.5rem;
@@ -140,6 +133,13 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.BestSeller button {
+  padding: 0;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
 }
 
 .section3 {
@@ -317,8 +317,16 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1.3rem 14rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
   margin-top: 25px;
+
+  /* margin: 0 auto;
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem; */
 }
 
 .footer1 {
@@ -327,7 +335,7 @@ h1 {
   padding-bottom: 2.1rem;
 }
 
-.footer1 li{
+x .footer1 li {
   margin-bottom: 16px;
 }
 

@@ -35,13 +35,26 @@ h1 {
   padding-right: 1.5rem;
 }
 
+.header div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a{
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: var(--text1);
+  padding-right: 1.4rem;
+}
+
 .section1 {
   margin-bottom: 36px;
   margin-top: 15px;
 }
-
 .section1 p {
-  margin-top: 8px;
+  margin-top: 28px;
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 1.5rem;
@@ -78,6 +91,7 @@ h1 {
   font-size: 1.4rem;
   line-height: 100%;
   width: 114px;
+  align-content: center;
 }
 
 .BestSeller h3 {
@@ -115,8 +129,30 @@ h1 {
 }
 
 .BestSeller ul {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+.BestSeller div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#view_all1 {
+  padding: 1.4rem 4rem;
+  text-align: center;
+  background: var(--text1);
+  border-radius: 82px;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #view_all {
@@ -125,7 +161,6 @@ h1 {
   background: var(--text1);
   border-radius: 82px;
   color: white;
-
   font-size: 1.5rem;
   line-height: 100%;
   margin-top: 60px;
@@ -187,6 +222,22 @@ h1 {
   margin-bottom: 22px;
 }
 
+#visit_shop1 {
+  padding: 1.3rem 4rem;
+  text-align: center;
+  background: var(--text1);
+  border-radius: 82px;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 100%;
+  text-decoration-line: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #visit_shop {
   padding: 1.3rem 4rem;
   text-align: center;
@@ -210,6 +261,9 @@ h1 {
 .section4 ul {
   padding-top: 2.2rem;
   margin: 0;
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
 }
 
 .section4 li {
@@ -320,13 +374,6 @@ h1 {
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
   margin-top: 25px;
-
-  /* margin: 0 auto;
-  display: block;
-  margin-top: 25px;
-  text-align: center;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem; */
 }
 
 .footer1 {
@@ -362,6 +409,17 @@ h1 {
   padding-bottom: 2.3rem;
 }
 
+.ul1_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.margin_img a{
+  margin-right: 12px;
+}
+
 #footer_p {
   opacity: 0.3;
   border: 0;
@@ -373,4 +431,152 @@ h1 {
   text-decoration-line: underline;
   text-transform: uppercase;
   opacity: 0.9;
+}
+
+.Menu_but{
+  border: 0px;
+  background-color: transparent;
+}
+
+
+@media screen and (max-width:1023px){
+  .sr_only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  #view_all1{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  #visit_shop1{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+}
+
+@media screen and (min-width:1023px){
+  .sr_1{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  #view_all{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  h1{
+    font-size: 4.4rem;
+    line-height: 100%;
+  }
+
+  .section1 p{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 169.02%;
+  }
+
+  #visit_shop{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .div_section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .section3 li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .div_section3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  
+  .div1_section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .div2_section3{
+    padding-left: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .section3 a{
+    margin-top: 22px;
+  }
+
 }

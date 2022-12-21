@@ -35,13 +35,14 @@ h1 {
   padding-right: 1.5rem;
 }
 
-.header div{
+.header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header a{
+
+.header a {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 100%;
@@ -53,6 +54,7 @@ h1 {
   margin-bottom: 36px;
   margin-top: 15px;
 }
+
 .section1 p {
   margin-top: 28px;
   margin-bottom: 40px;
@@ -134,7 +136,7 @@ h1 {
   gap: 0.9rem;
 }
 
-.BestSeller div{
+.BestSeller div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -256,14 +258,24 @@ h1 {
 
 .section4 {
   margin-bottom: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.section4 div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
 
 .section4 ul {
   padding-top: 2.2rem;
   margin: 0;
-  display: flex;
-  gap: 0.9rem;
-  flex-wrap: wrap;
 }
 
 .section4 li {
@@ -295,8 +307,6 @@ h1 {
 
 .NEWS img {
   margin-bottom: 16px;
-  max-width: 100%;
-  display: block;
   width: 100%;
 }
 
@@ -341,12 +351,22 @@ h1 {
   color: var(--text1);
 }
 
+.about_verseser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
+}
+
 .about_verseser img {
   margin-top: 43px;
   margin-bottom: 68px;
   max-width: 100%;
   display: block;
-  width: 100%;
+  max-width: 664px;
+  max-height: 660px;
+  padding-left: 6rem;
 }
 
 .about_verseser h2 {
@@ -362,18 +382,17 @@ h1 {
 }
 
 .about_verseser a {
-  background: var(--font);
-  border-radius: 82px;
-  color: white;
-  font-size: 1.5rem;
-  line-height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
-  margin-top: 25px;
+  border-radius: 82px;
+  margin-top: 26px;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  background-color: var(--font);
+  color: white;
+
 }
 
 .footer1 {
@@ -409,14 +428,14 @@ h1 {
   padding-bottom: 2.3rem;
 }
 
-.ul1_footer{
+.ul1_footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 1.2rem;
 }
 
-.margin_img a{
+.margin_img a {
   margin-right: 12px;
 }
 
@@ -433,13 +452,13 @@ h1 {
   opacity: 0.9;
 }
 
-.Menu_but{
+.Menu_but {
   border: 0px;
   background-color: transparent;
 }
 
 
-@media screen and (max-width:1023px){
+@media screen and (max-width:1023px) {
   .sr_only {
     position: absolute;
     width: 1px;
@@ -453,7 +472,7 @@ h1 {
     overflow: hidden;
   }
 
-  #view_all1{
+  #view_all1 {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -466,7 +485,7 @@ h1 {
     overflow: hidden;
   }
 
-  #visit_shop1{
+  #visit_shop1 {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -478,11 +497,10 @@ h1 {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
 }
 
-@media screen and (min-width:1023px){
-  .sr_1{
+@media screen and (min-width:1023px) {
+  .sr_1 {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -494,8 +512,8 @@ h1 {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
-  #view_all{
+
+  #view_all {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -507,19 +525,19 @@ h1 {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
-  h1{
+
+  h1 {
     font-size: 4.4rem;
     line-height: 100%;
   }
 
-  .section1 p{
+  .section1 p {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 169.02%;
   }
 
-  #visit_shop{
+  #visit_shop {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -532,14 +550,14 @@ h1 {
     overflow: hidden;
   }
 
-  .section3{
+  .section3 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
   }
 
-  .div_section3{
+  .div_section3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -552,22 +570,22 @@ h1 {
     align-items: center;
     justify-content: flex-start;
   }
-  
-  .div_section3{
+
+  .div_section3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
   }
-  
-  .div1_section3{
+
+  .div1_section3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
-  
-  .div2_section3{
+
+  .div2_section3 {
     padding-left: 2.8rem;
     display: flex;
     flex-direction: column;
@@ -575,8 +593,59 @@ h1 {
     justify-content: space-evenly;
   }
 
-  .section3 a{
+  .section3 a {
     margin-top: 22px;
   }
+
+
+
+}
+
+@media screen and (min-width:767px) {
+  .NEWS img {
+    max-width: 420px;
+    max-height: 280px;
+    padding-right: 6rem;
+  }
+
+  .NEWS article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .NEWS div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+  }
+
+  .about_verseser {
+    flex-wrap: nowrap
+  }
+
+  .div1_about_verseser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about_verseser a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 82px;
+    margin-top: 20px;
+    padding: 1.4rem 3rem;
+    background-color: var(--font);
+    color: white;
+  }
+
+
 
 }

@@ -82,6 +82,7 @@ h1 {
 .section1 img {
   margin: 0 auto;
   display: block;
+  min-height:380px;
 }
 
 .BestSeller {
@@ -116,6 +117,7 @@ h1 {
 
 .BestSeller img {
   margin-top: 28px;
+  min-height: 240px;
 }
 
 .BestSeller a {
@@ -260,6 +262,7 @@ h1 {
 
 .section4 img {
   margin-bottom: 14px;
+  
 }
 
 .section4 img:hover {

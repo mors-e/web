@@ -7,6 +7,9 @@
   --font: #181818;
   font-size: 62.5%;
   font-weight: 600;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main {
@@ -259,6 +262,13 @@ h1 {
   margin-bottom: 14px;
 }
 
+.section4 img:hover {
+  box-shadow: 0 0 6px 6px #555;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .NEWS {
   margin-bottom: 84px;
 }
@@ -309,6 +319,8 @@ h1 {
   font-size: 1.5rem;
   line-height: 100%;
   color: var(--text1);
+  text-decoration: none;
+  background: linear-gradient(90deg, blue 0%, purple 50%, pink 100%);
 }
 
 .about_verseser {
@@ -459,12 +471,12 @@ h1 {
   border-bottom: 0px;
 }
 
-.footer_a1 a{
+.footer_a1 a {
   padding-right: 1rem;
   padding-left: 1rem;
 }
 
-.a123{
+.a123 {
   color: #393939;
 }
 
@@ -656,6 +668,8 @@ h1 {
   .section4 div {
     padding-left: 3.2rem;
     padding-right: 3.2rem;
+    width: 100%;
+    max-width: 260px;
   }
 
   .section4 div img {
@@ -710,6 +724,7 @@ h1 {
     max-width: 100%;
     display: block;
     padding-left: 6rem;
+    max-width: 680px;
   }
 
   .div1_about_verseser {

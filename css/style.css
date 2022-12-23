@@ -239,7 +239,6 @@ h1 {
   align-items: center;
 }
 
-
 #visit_shop {
   padding: 1.3rem 4rem;
   text-align: center;
@@ -256,49 +255,8 @@ h1 {
   align-items: center;
 }
 
-.section4 {
-  margin-bottom: 56px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  
-}
-
-.section4 div{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-}
-
-.section4 ul {
-  padding-top: 2.2rem;
-  margin: 0;
-}
-
-.section4 li {
-  margin-top: 13px;
-}
-
-.section4 a {
-  padding: 1.3rem 4rem;
-  text-align: center;
-  background: var(--text1);
-  border-radius: 82px;
-  color: white;
-  font-size: 1.5rem;
-  line-height: 100%;
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.img {
-  color: white;
+.section4 img {
+  margin-bottom: 14px;
 }
 
 .NEWS {
@@ -308,6 +266,8 @@ h1 {
 .NEWS img {
   margin-bottom: 16px;
   width: 100%;
+  max-width: 460px;
+  padding-right: 6rem;
 }
 
 .NEWS h2 {
@@ -362,11 +322,9 @@ h1 {
 .about_verseser img {
   margin-top: 43px;
   margin-bottom: 68px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 380px;
   display: block;
-  max-width: 664px;
-  max-height: 660px;
-  padding-left: 6rem;
 }
 
 .about_verseser h2 {
@@ -457,6 +415,61 @@ h1 {
   background-color: transparent;
 }
 
+.sr_only1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.footer1_dec_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer1_dec_div_div a {
+  padding-right: 0.8rem;
+}
+
+.footer_a1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  border: var(--text1);
+}
+
+.footer_a1 p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: white;
+  border-top: 1px solid var(--text1);
+  border-bottom: 0px;
+}
+
+.footer_a1 a{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.a123{
+  color: #393939;
+}
+
+
+
 
 @media screen and (max-width:1023px) {
   .sr_only {
@@ -497,21 +510,40 @@ h1 {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+  .section4 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem 4rem;
+    background: var(--text1);
+    border-radius: 82px;
+    color: white;
+    width: 100%;
+  }
+
+  .section4 {
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .section4 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem 4rem;
+    background: var(--text1);
+    border-radius: 82px;
+    color: white;
+  }
 }
 
 @media screen and (min-width:1023px) {
-  .sr_1 {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
   #view_all {
     position: absolute;
@@ -597,9 +629,55 @@ h1 {
     margin-top: 22px;
   }
 
+  .section41 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
+  .section41 a {
+    padding: 1.4rem 4rem;
+    background: var(--text1);
+    border-radius: 82px;
+    color: white;
+    margin-bottom: 28px;
+    line-height: 100%;
+  }
 
+  .section4 {
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .section4 div {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+
+  .section4 div img {
+    display: block;
+    width: 100%;
+    min-width: 180px;
+  }
+
+  .sr_1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 }
+
 
 @media screen and (min-width:767px) {
   .NEWS img {
@@ -615,7 +693,6 @@ h1 {
     align-items: center;
   }
 
-
   .NEWS div {
     display: flex;
     flex-direction: column;
@@ -627,6 +704,14 @@ h1 {
     flex-wrap: nowrap
   }
 
+  .about_verseser img {
+    margin-top: 43px;
+    margin-bottom: 68px;
+    max-width: 100%;
+    display: block;
+    padding-left: 6rem;
+  }
+
   .div1_about_verseser {
     display: flex;
     flex-direction: column;
@@ -635,17 +720,11 @@ h1 {
   }
 
   .about_verseser a {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     border-radius: 82px;
     margin-top: 20px;
     padding: 1.4rem 3rem;
     background-color: var(--font);
     color: white;
   }
-
-
 
 }

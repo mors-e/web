@@ -50,7 +50,6 @@
       <h2>Registration</h2>
       <form
         class="flex_form"
-        action=""
         name="contact"
         method="POST"
         data-netlify="true"
@@ -59,7 +58,7 @@
           <legend>Personal information</legend>
           <p class="form_html_flex1">
             <label for="input1"> <span>Name</span></label>
-            <input id="input1" required placeholder="Ivan Ivanov" type="text" />
+            <input id="input1" name="name"  required placeholder="Ivan Ivanov" type="text" />
           </p>
           <p class="form_html_flex1">
             <label for="input2"><span>Вate of birth</span></label>
@@ -106,10 +105,10 @@
         </fieldset>
         <div class="flex_butt">
           <button class="button" type="submit">
-            <img src="картинки/отправить.svg" alt="" />
+            отправить
           </button>
           <button class="button" type="reset">
-            <img src="картинки/удалить.svg" alt="" />
+            удалить
           </button>
         </div>
       </form>
